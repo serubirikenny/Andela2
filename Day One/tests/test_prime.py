@@ -1,5 +1,5 @@
 import unittest
-from app.prime import Prime
+from prime import Prime
 
 
 class TestsPrime(unittest.TestCase):
@@ -17,7 +17,9 @@ class TestsPrime(unittest.TestCase):
 
     def test_number_is_prime(self):
         self.assertEquals(self.prime.check(6), [2, 3, 5])
-        
+
+    def test_error_if_arg_not_int(self):
+        self.assertRaises(TypeError, self.prime.check, 'two')
 
 if __name__ == '__main__':
     unittest.main()
