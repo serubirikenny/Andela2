@@ -1,5 +1,5 @@
 import unittest
-from prime import Prime
+from App.prime import Prime
 
 
 class TestsPrime(unittest.TestCase):
@@ -10,10 +10,10 @@ class TestsPrime(unittest.TestCase):
         self.assertIsInstance(self.prime.check(5), list)
         
     def test_one(self):
-        self.assertIn(1, self.prime.check(6))
+        self.assertNotIn(1, self.prime.check(6))
 
     def test_zero(self):
-        self.assertIn(0, self.prime.check(6))
+        self.assertNotIn(0, self.prime.check(6))
 
     def test_number_is_prime(self):
         self.assertEquals(self.prime.check(6), [2, 3, 5])
