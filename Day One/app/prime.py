@@ -1,5 +1,4 @@
 class Prime(object):
-
     def check(self, n):
         prime_list = []
 
@@ -16,10 +15,12 @@ class Prime(object):
                     j += 1
 
             if counter == 0:
-                prime.append(i)
+                prime_list.append(i)
             else:
                 counter = 0
         return prime_list
-        
+
+
 number = Prime()
-print(number.check(6))
+print(number.check(11))
+
