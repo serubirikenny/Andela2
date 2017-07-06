@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding; 0;
+}
+
+body{
+   margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;   
+}
+
+.container{
+	padding: 80px;
+	overflow: auto;
+}
+
+.top{
+	text-align: right;
+	list-style: none;
+	margin-right: 35px;
+	padding: 20px 0;
+	font-size: 12px;
+}
+
+.top li{
+	display: inline-block;
+	font-size: 13px;
+	padding: 6px 0;
+	padding-left: 25px;
+}
+
+.sign a{
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: #4285f4;
+	background: -moz-linear-gradient(top,#4387fd,#4683ea);
+	background: linear-gradient(top,#4387fd,#4683ea);
+	padding: 5px;
+	color: #fff !important;
+	border-radius: 2px;
+}
+
+.sign a:hover{
+	text-decoration: none !important;
+}
+
+.top li a{
+	text-decoration: none;
+	color: #000;
+}
+
+.top li a:hover{
+	text-decoration: underline;
+}
+
+
+.top .icons{
+	background-position: -132px -38px !important;
+	background:url(../images/icons.png) no-repeat;
+    	-webkit-background-size: 528px 68px;
+    	background-size: 528px 68px;
+
+}
+
+.top .icons a{ 
+	color: #fff !important;
+}
+
+img{
+	display: block;
+	margin: 50px auto; 
+}
+
+.inner{
+	width: 60%;
+	margin: 0 auto;
+}
+
+	.inner input{
+	border: 1px solid #ccc;
+	padding: 12px 25px !important;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 1px 1px 3px #b9b9b9;
+	background:url(../images/mic.png) no-repeat right;
+	background-size: 24px 24px;
+	background-position: 580px 8px;
+}
+
+.submit{
+	width: 22%;
+	margin: 25px auto
+}
+
+.submit input{
+	width: 48%;
+	padding: 10px 8px !important;
+	background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+	-moz-border-radius: 2px;
+	-moz-user-select: none;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+	ba
+	}
+
+.submit input:hover{
+	background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+
+.submit #left{
+	float: left;
+	
+}
+
+.submit #right{
+	float: right;
+	
+}
+
+#footer{
+	bottom: 0;
+	font-size: 10pt;
+	position: absolute;
+	width: 100%;
+}
+
+.footer-wrapper{
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 980px;
+}
+
+.left-footer{
+	float: left;
+	width: 50%;
+}
+
+.right-footer{
+	float: right;
+	width: 50%;
+}
+
+.bottom li{
+	display: inline-block;
+	padding-left: 25px;
+}
+
+.bottom li a{
+	text-decoration: none;
+	color: #666;
+}
+
+.bottom li a:hover{
+	text-decoration: underline;
+}
+
+
+.b-left{
+	text-align: left;
+}
+
+.b-right{
+	text-align: right;
+	margin-right: 35px;
+}
+
+
+/*End Nav Styles*/
+
